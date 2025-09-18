@@ -1,0 +1,32 @@
+
+program Meh;
+
+var
+//string
+nama:string;
+//integer
+umr:integer;
+//char=huruf
+jenis:char;
+//real=desimal
+ip:real;
+
+const
+pi=3.14;
+gravity=9.8;
+
+begin
+  writeln ('Siapa namamu maniez?:D');
+  readln (nama);
+  writeln ('berapa umurmu nich?');
+  readln (umr);
+  writeln ('jenis kelaminmu apa nich?');
+  readln (jenis);
+  writeln ('IPmu berapa nich?');
+  readln (ip);
+  writeln ('nih datamu manies :p');
+  writeln ('namamu adalah : ', nama);
+  writeln ('umurmu itu : ', umr);
+  writeln ('jenis kelaminmu itu harusnya : ', jenis);
+  writeln ('IPmu itu sih : ', ip:0:2);
+end.
